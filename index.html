@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lana Del Rey Fan Page</title>
+  <link rel="stylesheet" href="animation1.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="discography.css">
+</head>
+<body>
+  <main class="min-h-screen bg-light">
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-transparent">
+      <div class="container">
+        <div class="navbar-container">
+          <a href="/" class="navbar-logo">LANA DEL REY</a>
+          
+          <div class="navbar-desktop">
+            <a href="#" class="navbar-desktop-link">HOME</a>
+            <a href="#music" class="navbar-desktop-link">MUSIC</a>
+            <a href="#gallery" class="navbar-desktop-link">GALLERY</a>
+            <a href="#tour" class="navbar-desktop-link">TOUR</a>
+            <a href="#contact" class="navbar-desktop-link">CONTACT</a>
+          </div>
+          
+          <button class="navbar-mobile-button" id="mobile-menu-open">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="4" x2="20" y1="12" y2="12" />
+              <line x1="4" x2="20" y1="6" y2="6" />
+              <line x1="4" x2="20" y1="18" y2="18" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="navbar-mobile-menu">
+      <div class="navbar-mobile-header">
+        <button class="navbar-mobile-close" id="mobile-menu-close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 6 6 18" />
+            <path d="m6 6 12 12" />
+          </svg>
+        </button>
+      </div>
+      <div class="navbar-mobile-links">
+        <a href="#" class="navbar-mobile-link" data-mobile-link>HOME</a>
+        <a href="#music" class="navbar-mobile-link" data-mobile-link>MUSIC</a>
+        <a href="#gallery" class="navbar-mobile-link" data-mobile-link>GALLERY</a>
+        <a href="#tour" class="navbar-mobile-link" data-mobile-link>TOUR</a>
+        <a href="#contact" class="navbar-mobile-link" data-mobile-link>CONTACT</a>
+      </div>
+    </div>
+    
+    <!-- Hero Slider -->
+    <div id="hero-slider" class="hero-slider">
+      <div class="hero-slide active" data-index="0">
+        <div class="hero-bg" style="background-image: url('assets/img/slide1.png')">
+          <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">NEW ALBUM</h1>
+            <p class="hero-subtitle">Out Now</p>
+            <button class="hero-button">Listen Now</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hero-slide" data-index="1">
+        <div class="hero-bg" style="background-image: url('assets/img/slide2.png')">
+          <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">WORLD TOUR</h1>
+            <p class="hero-subtitle">Starting June 2025</p>
+            <button class="hero-button">Get Tickets</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hero-slide" data-index="2">
+        <div class="hero-bg" style="background-image: url('assets/img/slide3.png')">
+          <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">EXCLUSIVE MERCH</h1>
+            <p class="hero-subtitle">Limited Edition Collection</p>
+            <button class="hero-button">Shop Now</button>
+          </div>
+        </div>
+      </div>
+      
+      <button class="hero-nav-button hero-prev" id="hero-prev">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m15 18-6-6 6-6"/>
+        </svg>
+      </button>
+      
+      <button class="hero-nav-button hero-next" id="hero-next">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m9 18 6-6-6-6"/>
+        </svg>
+      </button>
+      
+      <div class="hero-dots">
+        <button class="hero-dot active" data-index="0"></button>
+        <button class="hero-dot" data-index="1"></button>
+        <button class="hero-dot" data-index="2"></button>
+      </div>
+    </div>
+    
+
+    <div class="container mx-auto px-4 py-16 space-y-24">
+      <section id="music" class="pt-16">
+        <h2 class="text-3xl md-text-4xl font-light tracking-wider text-center mb-12">LATEST RELEASES</h2>
+
+        
+        <!-- Discography -->
+        <div id="discography" class="discography">
+        </div>
+      </section>
+
+      <section id="gallery" class="pt-16">
+        <h2 class="text-3xl md-text-4xl font-light tracking-wider text-center mb-12">GALLERY</h2>
+        <!-- Gallery - Se completará con el componente gallery -->
+        <div id="gallery-container" class="gallery">
+          <!-- El contenido de la galería se cargará desde JavaScript -->
+        </div>
+      </section>
+
+      <section id="connection" class="pt-16">
+        <h2 class="text-3xl md-text-4xl font-light tracking-wider text-center mb-12">WHY I CONNECT</h2>
+        <div class="max-w-3xl mx-auto text-center">
+          <p class="text-lg leading-relaxed mb-6">
+            Lana Del Rey's music has been a constant companion through the highs and lows of my life. Her hauntingly
+            beautiful melodies and poetic lyrics create a nostalgic dreamscape that resonates deeply with my own
+            experiences.
+          </p>
+          <p class="text-lg leading-relaxed mb-6">
+            Her ability to blend vintage aesthetics with modern sensibilities mirrors my own appreciation for timeless
+            beauty. The raw vulnerability in her songwriting has helped me process my own emotions during difficult
+            times.
+          </p>
+          <p class="text-lg leading-relaxed">
+            From the melancholic tones of "Born to Die" to the introspective journey of "Norman Fucking Rockwell!",
+            Lana's artistic evolution has paralleled my own growth and self-discovery. Her music isn't just something
+            I listen to—it's become part of who I am.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="pt-16">
+        <h2 class="text-3xl md-text-4xl font-light tracking-wider text-center mb-12">CONTACT</h2>
+        <!-- Contact - Se completará con el componente contact -->
+        <div id="contact-form" class="contact">
+          <!-- El contenido del formulario de contacto se cargará desde JavaScript -->
+        </div>
+      </section>
+    </div>
+    
+    <!-- Footer - Se completará con el componente footer -->
+    <footer id="footer" class="footer">
+      <!-- El contenido del footer se cargará desde JavaScript -->
+    </footer>
+  </main>
+
+  <script src="animation.js"></script>
+  <script src="hero-slider.js"></script>
+  <script src="nav-bar.js"></script>
+  <script src="discograhpy.js"></script>
+</body>
+</html>

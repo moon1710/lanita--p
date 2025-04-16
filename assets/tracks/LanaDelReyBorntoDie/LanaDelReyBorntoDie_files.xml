@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="!Born to Die.png" source="original">
+    <mtime>1567081338</mtime>
+    <size>11389661</size>
+    <md5>76d3191e4dabc54708325cf8454a3496</md5>
+    <crc32>762bdd09</crc32>
+    <sha1>8860b71403c817d3255ba513b6298d7e7687681e</sha1>
+    <format>PNG</format>
+  </file>
+  <file name="!Born to Die_thumb.jpg" source="derivative">
+    <format>JPEG Thumb</format>
+    <original>!Born to Die.png</original>
+    <mtime>1567396258</mtime>
+    <size>6868</size>
+    <md5>d30a2f4db9867b4ba5b9a3288f9ba29f</md5>
+    <crc32>ee39970e</crc32>
+    <sha1>c93a209505811235972d63bf4523b97f3326a51a</sha1>
+  </file>
+  <file name="Born to Die (deluxe).png" source="original">
+    <mtime>1567081291</mtime>
+    <size>3651766</size>
+    <md5>816aec4a38a91031000f277405803d9f</md5>
+    <crc32>5e0c3785</crc32>
+    <sha1>924c52d56ef11cb6d4c738bcb9feb3d662428db2</sha1>
+    <format>PNG</format>
+  </file>
+  <file name="Born to Die (deluxe)_thumb.jpg" source="derivative">
+    <format>JPEG Thumb</format>
+    <original>Born to Die (deluxe).png</original>
+    <mtime>1567081360</mtime>
+    <size>6716</size>
+    <md5>558cbf8362cb74d81a47c88d82ea46b6</md5>
+    <crc32>75837d98</crc32>
+    <sha1>092f77e3f13168a6be7b8326355d549d2918bf66</sha1>
+  </file>
+  <file name="Born to Die- Paradise Edition_thumb.jpg" source="derivative">
+    <format>JPEG Thumb</format>
+    <original>Born to Die- The Paradise Edition.png</original>
+    <mtime>1567081362</mtime>
+    <size>7402</size>
+    <md5>0a5192a4defff78d62b33f2f3249b51e</md5>
+    <crc32>9c28af06</crc32>
+    <sha1>e37ba1b8753687793615a57c8207ce5ca98ba7ff</sha1>
+  </file>
+  <file name="Born to Die- The Paradise Edition.png" source="original">
+    <mtime>1567081342</mtime>
+    <size>4405186</size>
+    <md5>c6fad57423a4649097252fa6a6610bbe</md5>
+    <crc32>c956dd52</crc32>
+    <sha1>3c1adee03ecf6944567972a929b35a49eaad3100</sha1>
+    <format>PNG</format>
+  </file>
+  <file name="Born to Die- The Paradise Edition_thumb.jpg" source="derivative">
+    <format>JPEG Thumb</format>
+    <original>Born to Die- The Paradise Edition.png</original>
+    <mtime>1567283781</mtime>
+    <size>7402</size>
+    <md5>0a5192a4defff78d62b33f2f3249b51e</md5>
+    <crc32>9c28af06</crc32>
+    <sha1>e37ba1b8753687793615a57c8207ce5ca98ba7ff</sha1>
+  </file>
+  <file name="Born to Die_thumb.jpg" source="derivative">
+    <format>JPEG Thumb</format>
+    <original>!Born to Die.png</original>
+    <mtime>1567081364</mtime>
+    <size>6868</size>
+    <md5>d30a2f4db9867b4ba5b9a3288f9ba29f</md5>
+    <crc32>ee39970e</crc32>
+    <sha1>c93a209505811235972d63bf4523b97f3326a51a</sha1>
+  </file>
+  <file name="LanaDelReyBorntoDie_archive.torrent" source="metadata">
+    <btih>74fe81144af383fae7c40ce473f7f1d00808ab9a</btih>
+    <mtime>1725645066</mtime>
+    <size>3916</size>
+    <md5>34ab75f442e75188690a605521013263</md5>
+    <crc32>520ed8cf</crc32>
+    <sha1>3f27d5d2ede77ab91a98600b3fc84ab6b9391dd1</sha1>
+    <format>Archive BitTorrent</format>
+  </file>
+  <file name="LanaDelReyBorntoDie_files.xml" source="original">
+    <format>Metadata</format>
+    <md5>91d976ea6264110b88b8d5fb9f276f5e</md5>
+    <summation>md5</summation>
+  </file>
+  <file name="LanaDelReyBorntoDie_meta.sqlite" source="original">
+    <mtime>1567081345</mtime>
+    <size>16384</size>
+    <format>Metadata</format>
+    <md5>4f2571605fe8032cb443b7481d2623ff</md5>
+    <crc32>e4f96373</crc32>
+    <sha1>80d748a50855e714bf60b1c167a627dac184c72b</sha1>
+  </file>
+  <file name="LanaDelReyBorntoDie_meta.xml" source="original">
+    <mtime>1717562533</mtime>
+    <size>1097</size>
+    <format>Metadata</format>
+    <md5>d19b2b9c3e14d55ff53f35e028ae8823</md5>
+    <crc32>f8f0bb9f</crc32>
+    <sha1>6ef3077ac2db676e954c103b407e51487fa649da</sha1>
+  </file>
+  <file name="__ia_thumb.jpg" source="original">
+    <mtime>1633454873</mtime>
+    <size>16960</size>
+    <format>Item Tile</format>
+    <rotation>0</rotation>
+    <md5>8d45592d8caca5276dd2f9e56a518235</md5>
+    <crc32>afa0e3db</crc32>
+    <sha1>d3e460363b525be08fba27eb277eedb6c9e34a11</sha1>
+  </file>
+</files>
