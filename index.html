@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lana Del Rey Fan Page</title>
     <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
-    <link rel="stylesheet" href="animation1.css"/>
-    <link rel="stylesheet" href="styles.css"/>
-    <link rel="stylesheet" href="discography.css"/>
-    <link rel="stylesheet" href="gallery.css"/>
-    <link rel="stylesheet" href="footer.css"/>
+    <link rel="stylesheet" href="styles/animation.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/discography.css" />
+    <link rel="stylesheet" href="styles/gallery.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
   </head>
   <body>
     <main class="min-h-screen bg-light">
@@ -21,10 +21,9 @@
 
             <div class="navbar-desktop">
               <a href="#" class="navbar-desktop-link">HOME</a>
-              <a href="#music" class="navbar-desktop-link">MUSIC</a>
-              <a href="#gallery" class="navbar-desktop-link">GALLERY</a>
-              <a href="#tour" class="navbar-desktop-link">TOUR</a>
-              <a href="#contact" class="navbar-desktop-link">CONTACT</a>
+              <a href="#music" class="navbar-desktop-link">DISCOGRAFÍA</a>
+              <a href="#gallery" class="navbar-desktop-link">GALERÍA</a>
+              <a href="#connection" class="navbar-desktop-link">OPINION</a>
             </div>
 
             <button class="navbar-mobile-button" id="mobile-menu-open">
@@ -70,19 +69,21 @@
         </div>
         <div class="navbar-mobile-links">
           <a href="#" class="navbar-mobile-link" data-mobile-link>HOME</a>
-          <a href="#music" class="navbar-mobile-link" data-mobile-link>MUSIC</a>
-          <a href="#gallery" class="navbar-mobile-link" data-mobile-link
-            >GALLERY</a
+          <a href="#music" class="navbar-mobile-link" data-mobile-link
+            >DISCOGRAFÍA</a
           >
-          <a href="#tour" class="navbar-mobile-link" data-mobile-link>TOUR</a>
-          <a href="#contact" class="navbar-mobile-link" data-mobile-link
-            >CONTACT</a
+          <a href="#gallery" class="navbar-mobile-link" data-mobile-link
+            >GALERÍA</a
+          >
+          <a href="#connection" class="navbar-mobile-link" data-mobile-link
+            >OPINION</a
           >
         </div>
       </div>
 
       <!-- Hero Slider -->
       <div id="hero-slider" class="hero-slider">
+        <!-- Slide 0: Nuevo Álbum -->
         <div class="hero-slide active" data-index="0">
           <div
             class="hero-bg"
@@ -92,13 +93,20 @@
           </div>
           <div class="hero-content">
             <div class="hero-text">
-              <h1 class="hero-title">NEW ALBUM</h1>
-              <p class="hero-subtitle">Out Now</p>
-              <button class="hero-button">Listen Now</button>
+              <h1 class="hero-title">NUEVO ÁLBUM</h1>
+              <p class="hero-subtitle">Ya disponible</p>
+              <a
+                href="https://lanadelrey.lnk.to/DYKTTaTOOB"
+                target="_blank"
+                rel="noopener"
+              >
+                <button class="hero-button">Escúchalo ahora</button>
+              </a>
             </div>
           </div>
         </div>
 
+        <!-- Slide 1: Video oficial -->
         <div class="hero-slide" data-index="1">
           <div
             class="hero-bg"
@@ -108,13 +116,20 @@
           </div>
           <div class="hero-content">
             <div class="hero-text">
-              <h1 class="hero-title">WORLD TOUR</h1>
-              <p class="hero-subtitle">Starting June 2025</p>
-              <button class="hero-button">Get Tickets</button>
+              <h1 class="hero-title">SUMMERTIME SADNESS</h1>
+              <p class="hero-subtitle">Video oficial en YouTube</p>
+              <a
+                href="https://www.youtube.com/watch?v=nVjsGKrE6E8"
+                target="_blank"
+                rel="noopener"
+              >
+                <button class="hero-button">Ver videoclip</button>
+              </a>
             </div>
           </div>
         </div>
 
+        <!-- Slide 2: Merch oficial -->
         <div class="hero-slide" data-index="2">
           <div
             class="hero-bg"
@@ -124,13 +139,20 @@
           </div>
           <div class="hero-content">
             <div class="hero-text">
-              <h1 class="hero-title">EXCLUSIVE MERCH</h1>
-              <p class="hero-subtitle">Limited Edition Collection</p>
-              <button class="hero-button">Shop Now</button>
+              <h1 class="hero-title">MERCH OFICIAL</h1>
+              <p class="hero-subtitle">Colección edición limitada</p>
+              <a
+                href="https://store.lanadelrey.com"
+                target="_blank"
+                rel="noopener"
+              >
+                <button class="hero-button">Comprar ahora</button>
+              </a>
             </div>
           </div>
         </div>
 
+        <!-- Navigation Buttons -->
         <button class="hero-nav-button hero-prev" id="hero-prev">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -163,6 +185,7 @@
           </svg>
         </button>
 
+        <!-- Dots -->
         <div class="hero-dots">
           <button class="hero-dot active" data-index="0"></button>
           <button class="hero-dot" data-index="1"></button>
@@ -200,26 +223,21 @@
           <h2
             class="text-3xl md-text-4xl font-light tracking-wider text-center mb-12"
           >
-            WHY I CONNECT
+            como conecto?
           </h2>
           <div class="max-w-3xl mx-auto text-center">
             <p class="text-lg leading-relaxed mb-6">
-              Lana Del Rey's music has been a constant companion through the
-              highs and lows of my life. Her hauntingly beautiful melodies and
-              poetic lyrics create a nostalgic dreamscape that resonates deeply
-              with my own experiences.
+              Cuando escuché <strong>Ultraviolence</strong> por primera vez
+              sentí que alguien había puesto mis pensamientos en vinilo. La
+              mezcla de guitarras brumosas, letras confesionales y esa voz que
+              suena como un atardecer me hicieron compañía en noches donde
+              parecía que no había nadie más.
             </p>
             <p class="text-lg leading-relaxed mb-6">
-              Her ability to blend vintage aesthetics with modern sensibilities
-              mirrors my own appreciation for timeless beauty. The raw
-              vulnerability in her songwriting has helped me process my own
-              emotions during difficult times.
-            </p>
-            <p class="text-lg leading-relaxed">
-              From the melancholic tones of "Born to Die" to the introspective
-              journey of "Norman Fucking Rockwell!", Lana's artistic evolution
-              has paralleled my own growth and self-discovery. Her music isn't
-              just something I listen to—it's become part of who I am.
+              Lana ha sido esa voz de fondo en mis momentos más frágiles, la
+              prueba de que no estoy sola cuando las luces se apagan. Por eso
+              conecto: porque su música ha estado ahí incluso cuando nadie más
+              parecía escuchar.
             </p>
           </div>
         </section>
@@ -268,10 +286,10 @@
       </footer>
     </main>
 
-    <script src="animation.js"></script>
-    <script src="hero-slider.js"></script>
-    <script src="nav-bar.js"></script>
-    <script src="discograhpy.js"></script>
-    <script src="gallery.js"></script>
+    <script src="JS/animation.js"></script>
+    <script src="JS/hero-slider.js"></script>
+    <script src="JS/nav-bar.js"></script>
+    <script src="JS/discograhpy.js"></script>
+    <script src="JS/gallery.js"></script>
   </body>
 </html>
