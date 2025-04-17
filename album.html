@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Álbum - Lana Del Rey</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lana Del Rey</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/icon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="album.css">
   <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
-  <main class="container" style="padding: 2rem;">
-    <div id="album-details">
-      <!-- Aquí se insertará la info -->
-    </div>
+  <main>
+
+    <h1 id="album-title"></h1>
+    <img id="album-cover" class="cover" alt="Album cover">
+    <div id="track-list"></div>
+    <a href="index.html" style="display:block; text-align:center; margin-top:2rem; font-weight:600;">← Volver a la discografía</a>
   </main>
 
-  <script src="iTunes.js"></script>
+  <!-- MODAL -->
+  <div id="lyrics-modal">
+  <div id="lyrics-content">
+    <button id="lyrics-close">&times;</button>
+    <h2 id="lyrics-title"></h2>
+    <pre id="lyrics-text"></pre>
+  </div>
+</div>
+
+
+  <script src="album.js"></script>
+  <script src="lyrics_modal.js"></script>
+
 </body>
 </html>
