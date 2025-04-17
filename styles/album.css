@@ -1,6 +1,32 @@
+:root {
+  /* Variables de tema claro */
+  --background: #f8f5f2;
+  --foreground: #0a0a0a;
+  --card: #ffffff;
+  --card-foreground: #0a0a0a;
+  --popover: #ffffff;
+  --popover-foreground: #0a0a0a;
+  --primary: #171717;
+  --primary-foreground: #fafafa;
+  --secondary: #f5f5f5;
+  --secondary-foreground: #171717;
+  --muted: #f5f5f5;
+  --muted-foreground: #737373;
+  --accent: #f5f5f5;
+  --accent-foreground: #171717;
+  --radius: 0.5rem;
+  --sidebar-background: #fafafa;
+  --sidebar-foreground: #424242;
+  --sidebar-primary: #1a1a1a;
+  --sidebar-primary-foreground: #fafafa;
+  --sidebar-accent: #f4f4f5;
+  --sidebar-accent-foreground: #1a1a1a;
+  --sidebar-border: #e8e8ec;
+}
+
 body {
     font-family: 'Inter', sans-serif;
-    background: #fdfaf6;
+    background: var(--background);
     padding: 2rem;
     color: #222;
 }
@@ -78,7 +104,7 @@ h1 {
 .progress-bar {
     width: 100%;
     height: 5px;
-    background: #eee;
+    background: var(--background);
     border-radius: 3px;
     overflow: hidden;
     margin-top: 0.5rem;
@@ -90,9 +116,29 @@ h1 {
     width: 0;
 }
 
+a {
+  display: block;
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--primary);
+}
+
+a:visited {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--accent-foreground);
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+
 .lyrics-btn {
   background-color: #f3f3f3;
-  color: #444;
+  color: var(--sidebar-foreground);
   border: 1px solid #ddd;
   padding: 0.4rem 1rem;
   border-radius: 9999px;
