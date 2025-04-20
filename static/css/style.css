@@ -1,0 +1,172 @@
+body {
+    background-image: url(static/assets/pics/swirl_pattern.png);
+    margin: 10px auto;
+    width: 70%;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+header {
+    width: 100%;
+    overflow: hidden;
+    background-color: #ececec;
+    margin-bottom: 0;
+    padding: 0;
+    border-radius: 25px 25px 0px 0px;
+    border-style: none;
+}
+
+/* Contenedor del perfil */
+.perfil-container {
+    display: flex;
+    align-items: center;
+    background-color: #ececec;
+    padding: 20px 0px 20px 20px;
+    border-radius: 25px 25px 0px 0px;
+    margin: 0;
+}
+
+/* Imagen de perfil */
+.imagen-perfil {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10%;
+    transition: transform 0.3s ease;
+    padding-right: 1em;
+}
+
+.imagen-perfil img {
+    max-width: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.imagen-perfil:hover {
+    transform: scale(1.05); 
+}
+
+.imagen-perfil:hover img {
+    transform: scale(1.1); 
+    filter: brightness(110%) contrast(110%);
+}
+
+/* Información personal */
+.info-personal {
+    width: 70%;
+    text-align: left;
+    padding-left: 1.5em;
+    margin-bottom: 0;
+}
+
+.info-personal h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.info-personal h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info-personal h3 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.info-personal p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* Sección principal */
+main {
+    display: flex;
+    margin-top: 0;
+}
+
+.contenido {
+    width: 65%;
+    text-align: justify;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 0;
+}
+
+
+.info-lateral {
+    width: 35%;
+    background-color: #ececec;
+    padding: 20px;
+}
+
+/* Estilos para artículos */
+article {
+    margin-bottom: 0;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+article h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+}
+
+.lista-academica {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Íconos */
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Footer */
+footer {
+    background: #ececec;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.redes-sociales ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.redes-sociales li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.pie ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.pie li {
+    list-style: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.redes-sociales i {
+    color: #555;
+    transition: color 0.3s;
+}
+.redes-sociales a:hover i {
+    color: #ff4081;
+}
+
